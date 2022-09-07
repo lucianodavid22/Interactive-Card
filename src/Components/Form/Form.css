@@ -1,0 +1,61 @@
+.form-container {
+    width: 500px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 32%;
+    margin-bottom: 10%;
+}
+
+.form-container div label h3{
+    margin-bottom: 3%;
+}
+
+.date-cvc {
+    display: flex;
+}
+
+input {
+    margin-left: 1%;
+    padding: 10px 5px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.230);
+    border-radius: 2px;
+}
+
+h3 {
+    color: #322a57;
+}
+
+#name, #cardNumber {
+    width: 96%;
+}
+
+.expire {
+    display: flex;
+    gap: 25px;
+}
+
+.expire input {
+    width: 24%;
+}
+
+.button-form {
+    font-weight: 600;
+    padding: 15px 25px;
+    width: 100%;
+    align-self: center;
+    background-color: #2e1b65f2;
+    color: rgba(255, 255, 255, 0.888);
+    border: none;
+    border-radius: 2px;
+}
+
+.button-form:hover {
+    background-color: #271a4ef2;
+    color: rgba(255, 255, 255, 0.888);
+    cursor: pointer;
+}
