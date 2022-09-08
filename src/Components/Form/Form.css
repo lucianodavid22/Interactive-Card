@@ -26,6 +26,10 @@ input {
     border-radius: 2px;
 }
 
+#CVC {
+    width: 92%;
+}
+
 h3 {
     color: #322a57;
 }
@@ -51,7 +55,7 @@ h3 {
     background-color: #2e1b65f2;
     color: rgba(255, 255, 255, 0.888);
     border: none;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .button-form:hover {
@@ -59,3 +63,40 @@ h3 {
     color: rgba(255, 255, 255, 0.888);
     cursor: pointer;
 }
+
+@media (max-width: 1535px) {
+    .form-container {
+        margin-top: 20%;
+        width: 100vw;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-left: 60%;
+        margin-bottom: 10%;
+    }
+    
+    .date-cvc {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+  }
+@media (max-width: 768px) {
+    .form-container {
+        margin-top: 40%;
+        width: 100vw;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-left: 40%;
+        margin-bottom: 10%;
+    }
+    
+    .date-cvc {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+  }

@@ -37,3 +37,13 @@
     font-weight: 600;
     color: rgba(255, 255, 255, 0.453);
 }
+
+@media (max-width: 768px) {
+    .card-back-container {
+        position: absolute;
+        left: 25%;
+        top: 2%;
+        
+    }
+  
+  }

@@ -7,13 +7,13 @@ function App() {
 	return (
 		<div className="App">
 			<div className="left-section">
-        <div className="card-front">
-          <CardFront />
-        </div>
-        <div className="card-back">
-          <CardBack />
-        </div>
-      </div>
+				<div className="card-front">
+					<CardFront />
+				</div>
+				<div className="card-back">
+					<CardBack />
+				</div>
+			</div>
 			<div className="formulario">
 				<Form />
 			</div>

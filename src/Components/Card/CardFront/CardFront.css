@@ -54,3 +54,13 @@
     display: flex;
     justify-content: space-around;
 }
+
+
+@media (max-width: 768px) {
+    .card-front-container {
+        position: absolute;
+        left: 10%;
+        top: 13%;
+        z-index: 10;
+    }
+  }
